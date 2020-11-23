@@ -1,0 +1,40 @@
+.navbar{
+    float: right;
+        
+}
+.container {
+    margin-left: 100px;
+}
+.brand {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.nb  .portfoliot {
+    color: #08bdbd;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.hs {
+    max-height: 225px;
+    max-width: 150px;
+    }
+
+ .text {
+    text-align: justify;
+  
+ }   
+
+ .portfolio img {
+     max-width: 200px;
+     max-height: 300px;
+ }
+.portfolio #port {
+
+    color: #08bdbd;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger
+}
+
