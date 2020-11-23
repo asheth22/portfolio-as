@@ -2,6 +2,12 @@
     float: right;
         
 }
+.nb  {
+    color: #08bdbd;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+}
 .container {
     margin-left: 100px;
 }
@@ -9,11 +15,6 @@
     float: left;
     margin-bottom: 20px;
     margin-top: 10px;
-}
-.nb  .portfoliot {
-    color: #08bdbd;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
 }
 
 .hs {
@@ -29,12 +30,38 @@
  .portfolio img {
      max-width: 200px;
      max-height: 300px;
+     border: white;
  }
-.portfolio #port {
+
+.portfolio .page-name {
 
     color: #08bdbd;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: larger
+    font-size: x-large
 }
 
+.contact .page-name {
+
+    color: #08bdbd;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large
+}
+
+.contact form {
+
+    padding: 50px;
+}
+
+.contact form #message{
+
+    min-height: 100px;
+}
+
+@media only screen and (max-width: 740px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
