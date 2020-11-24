@@ -1,6 +1,16 @@
-.navbar{
-    float: right;
+ html {
+   position: relative;
+   min-height: 100%;
+}
+#navbarNav{
+    justify-content: flex-end;
         
+}
+#name {
+    background-color: #08bdbd;
+    font-size: 24px;
+    color: white; 
+    font-weight: bold;
 }
 .nb  {
     color: #08bdbd;
@@ -8,9 +18,7 @@
     font-weight: bold;
     font-size: large;
 }
-.container {
-    margin-left: 100px;
-}
+
 .brand {
     float: left;
     margin-bottom: 20px;
@@ -54,14 +62,13 @@
     padding: 50px;
 }
 
-.contact form #message{
-
-    min-height: 100px;
+.form-cont {
+    min-width: 100%;
+    max-width: 100%;
 }
 
-@media only screen and (max-width: 740px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
+.contact form #message{
+
+    /* min-height: 100px; */
+}
+
