@@ -1,89 +1,69 @@
- html {
-   position: relative;
-   min-height: 100%;
-  
-}
+/* navigation bar styling */
 #navbarNav{
-    justify-content: flex-end;
-        
+    justify-content: flex-end;        
 }
-
-.col-md-8 {
-    margin-top: 50px;
-    background-color: #f8fafa
-}
+/* navigation bar anchor */
 #name {
     background-color: #08bdbd;
     font-size: 24px;
     color:#f8fafa; 
     font-weight: bold;
 }
-body {
-    background-color: #e2e2e2;
+/* footer styling for all pages */
+footer { 
+    background-color: #464545;
+    min-height: 40px;
+    border-top: #08bdbd solid 5px; 
+    
 }
-.container h1 {
-   
+
+/* main section styling for all pages */
+main {
+    background-color: #ece9e9;
+    margin: 0;
+    min-height: 475px;
+}
+
+.container {
+    max-width: 100%;
+    max-height: 100%
+}
+
+/* Styling for about-me page */
+.about-me h1 {
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
     color: #08bdbd; 
     font-weight: bold;
-}
-.row {
-    margin-left: 50px;
-}
-
-.brand {
-    float: left;
     margin-bottom: 20px;
-    margin-top: 10px;
 }
 
-.hs {
-    max-height: 225px;
-    max-width: 150px;
+.about-me img {
+    max-width: 100px;
+    max-height: 150px;
     float: left; 
     margin-right: 10px;
-    }
+}
 
- .text {
-    text-align: justify;
-  
- }   
+.about-me .col-md-8 {
+    background-color: #fff;
+    margin: 50px
+    
+}
+/* Styling for portfolio page */
 
- .portfolio img {
-     max-width: 200px;
-     max-height: 300px;
-     border: white;
- }
+.portfolio {
 
-.portfolio .page-name {
+    margin-left: 50px;
+}
+.portfolio .col-md-8 {
 
-    color: #08bdbd;
+    font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
+    color: #08bdbd; 
     font-weight: bold;
-    font-size: x-large
+   
 }
 
-.contact .page-name {
 
-    color: #08bdbd;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: x-large
-}
-
-.contact form {
-
-    padding: 50px;
-}
-
-.form-cont {
-    min-width: 100%;
-    max-width: 100%;
-}
-
-.contact form #message{
-
-    /* min-height: 100px; */
-}
 
