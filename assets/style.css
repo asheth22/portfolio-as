@@ -1,22 +1,35 @@
  html {
    position: relative;
    min-height: 100%;
+  
 }
 #navbarNav{
     justify-content: flex-end;
         
 }
+
+.col-md-8 {
+    margin-top: 50px;
+    background-color: #f8fafa
+}
 #name {
     background-color: #08bdbd;
     font-size: 24px;
-    color: white; 
+    color:#f8fafa; 
     font-weight: bold;
 }
-.nb  {
-    color: #08bdbd;
+body {
+    background-color: #e2e2e2;
+}
+.container h1 {
+   
+    font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
+    color: #08bdbd; 
     font-weight: bold;
-    font-size: large;
+}
+.row {
+    margin-left: 50px;
 }
 
 .brand {
@@ -28,6 +41,8 @@
 .hs {
     max-height: 225px;
     max-width: 150px;
+    float: left; 
+    margin-right: 10px;
     }
 
  .text {
