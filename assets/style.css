@@ -29,12 +29,20 @@ main {
     max-height: 100%
 }
 
+
 /* Styling for about-me page */
+
+.about-me .col-md-8 {
+    background-color: #fff;
+    margin: 50px;
+    max-width: 80%;
+}
 .about-me h1 {
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
     color: #08bdbd; 
     font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -42,28 +50,73 @@ main {
     max-width: 100px;
     max-height: 150px;
     float: left; 
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
-.about-me .col-md-8 {
+
+.about-me .col-md-8 p {
     background-color: #fff;
-    margin: 50px
-    
+    margin-bottom: 50px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: auto;
 }
-/* Styling for portfolio page */
+/* Styling for contact page */
 
-.portfolio {
-
-    margin-left: 50px;
-}
-.portfolio .col-md-8 {
-
+.contact h1 {
     font-size: 32px;
     font-family: 'Times New Roman', Times, serif;
     color: #08bdbd; 
     font-weight: bold;
-   
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.contact .col-md-8 {
+    background-color: #fff;
+    margin: 50px
+    
+}
 
+.form-control {
+    max-width: 70%;
+}
 
+.form-cont {
+    min-width: 70%;
+    max-width: 70%;
+    border: 1px solid #ced4da;
+}       
+.btn-info {
+color: #fff;
+background-color: #08bdbd;
+border-color: #08bdbd;
+
+}
+/* Styling for portfolio page */
+
+/* Styling for portfolio page */
+
+.portfolio h1 {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #08bdbd; 
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.portfolio .col-md-8 {
+    background-color: #fff;
+    margin: 50px
+    }
+
+.portfolio .col-md-8 img {
+
+    height: 350px;
+    width: auto;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: rgb(141, 140, 140) solid 2px;
+}    
