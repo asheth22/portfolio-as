@@ -23,7 +23,7 @@ The following image shows the web application's appearance:
 
 ![About-Me](https://github.com/asheth22/portfolio-as/tree/main/assets/images/portfolio-as.png)
 ![Project-Portfolio](https://github.com/asheth22/portfolio-as/tree/main/assets/images/portfolio-projects.png)
-![Contact-Me](https://github.com/asheth22/portfolio-as/tree/main/assets/imagescontact.png)
+![Contact-Me](https://github.com/asheth22/portfolio-as/tree/main/assets/images/contact.png)
 
 ## Application URL
 
