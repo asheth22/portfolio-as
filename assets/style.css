@@ -34,19 +34,14 @@ h1 {
     margin-bottom: 20px;
 }
 
-.col-md-8 {
+.col-md-8, .col {
     background-color: #fff;
     margin: 50px;
     max-width: 80%;
     padding-top: 20px;
+    height: 100%;
 }
 
-.col {
-    background-color: #fff;
-    margin: 50px;
-    max-width: 80%;
-    padding-top: 20px;
-}
 
 /* Styling for about-me page */
 .about-me img {
@@ -80,32 +75,32 @@ h1 {
 
         border: solid 2px #3f4141; 
         width: 350px;
-        max-width: 40%;
         width: auto;
-        margin: 50px;
-        margin-left: 20px;
+        max-width: 40%;
+        margin-left: 35px;
         margin-right: 20px;
         margin-bottom: 50px;
-        margin-top: 50px;
-        
-        }    
+           
+        }
+              
 /*  Responsive styling */
     @media screen and (max-width: 768px) {
                    
         .wrapper {
           width: 100%;
           min-height: 100%;
-
+          font-size: smaller;  
         }   
 
-        .portfolio .col-md-8 img {
-            max-width: 90%;
-            
+        html, body {
+
+            height: 100%;
         }
 
-        .contact {
-            width: 100%;
-  
-          }   
-      
+        .portfolio .col-md-8 img {
+            margin-left: 10px; 
+            max-width: 90%;
+        }
+          
+        
     }
