@@ -2,7 +2,7 @@
 Anjali Sheth - Professional Biography
 
 ```
-In yjis project I have created my personal biography with:
+In this project I have created my personal biography with:
 
 > Information about me: A summary of my professional experience and skills
 > images of project completed (place holders): Illustrations of projects completed
@@ -13,6 +13,7 @@ In yjis project I have created my personal biography with:
 ## Application Features
 
 ```
+The application contains 3 pages: About-Me, Portfolio and Contact Me. 
 The application is optimized for Search Engines and is best viewwed in Google Chrome
 The navigation bar allows the user to jump to the different sections in the portfolio
 
