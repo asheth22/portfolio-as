@@ -1,0 +1,43 @@
+/*  Responsive styling */
+@media screen and (max-width: 768px) {
+                   
+    .wrapper {
+      width: 100%;
+      min-height: 100%;
+
+    }   
+   .portfolio .col-md-8  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio .col-md-8 h1 {
+        float: left;
+    }
+
+    .portfolio .col-md-8 img {
+        max-width: 90%;
+    }
+
+    .form-control {
+        transition: all;
+      }
+
+      .col {
+        background-color: #fff;
+        margin: 50px;
+        max-width: 100%;
+        padding-top: 20px;
+    }
+
+    .form-control {
+      max-width: 100%;
+  }
+  
+  .form-cont {
+      min-width: 100%;
+      max-width: 100%;    
+      border: 1px solid #ced4da;
+  }     
+}

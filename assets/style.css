@@ -36,15 +36,13 @@ h1 {
 
 .col-md-8 {
     background-color: #fff;
-    margin: 50px;
+    margin: 50px; 
     max-width: 80%;
     padding-top: 20px;
 }
 
 .col {
     background-color: #fff;
-    margin: 50px;
-    max-width: 80%;
     padding-top: 20px;
 }
 
@@ -76,35 +74,17 @@ h1 {
 
 /* Styling for portfolio page */
 
-    .portfolio .col-md-8 img {
+.portfolio .col-md-8 img {
 
-        border:   #08bdbd;  
-        max-width: 40%;
-        max-height: 350px;
-        width: auto;
-        margin: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        
-        }    
-/*  Responsive styling */
-    @media screen and (max-width: 768px) {
-                   
-        .wrapper {
-          width: 100%;
-          min-height: 100%;
-
-        }   
-
-        .portfolio .col-md-8 img {
-            max-width: 90%;
-        }
-
-        .contact {
-            width: 100%;
+    border:   #08bdbd;  
+    max-width: 40%;
+    max-height: 50%;
+    width: auto;
+    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;  
   
-          }   
-      
-    }
+           
+     }    
